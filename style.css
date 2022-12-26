@@ -1,0 +1,272 @@
+/* css reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* batas css reset */
+
+/* style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-utama {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 800px 600px 500px 700px 660px 620px 500px 400px;
+}
+
+/* header */
+header {
+    width: 100%;
+    color: #fff;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+header .logo{
+    display: flex;
+}
+
+header .logo img {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+header .logo h1 {
+    height: 80px;
+    margin-left: 8px;
+    padding-top: 28px;
+    box-sizing: border-box;
+    font-size: 28px;
+} 
+
+header .menu {
+    display: grid;
+    justify-items: end;
+    align-content: center;
+}
+
+header .menu ul {
+    width: 100%;
+    height: 50px;
+    margin-right: 8px;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 100px;
+    gap: 8px;
+    justify-content: end;
+    align-content: center;
+    text-align: center;
+}
+
+header .menu li {
+  
+}
+
+header .menu a {
+    text-decoration: none;
+    color: #ffff;
+}
+/* batas header */
+
+/* hero */
+.hero {
+    width: 100%;
+    background-image: url('../img/hero2.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.hero h2 {
+    margin-left: 250px;
+    margin-top: px;
+    font-size: 48px;
+    opacity: .6;
+}
+
+.hero .logo-hero {
+    display: flex;
+    margin-top: px;
+}
+
+.hero .logo-hero h3 {
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    opacity: .4;
+}
+
+.hero .l-concrete {
+    width: 160px;
+    height: 150px;
+}
+
+.description-hero {
+    width: 600px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 70px;
+}
+
+.description-hero p {
+    font-size: 70px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+.description-hero h4 {
+    font-size: 50px;
+    font-weight: bold;
+    opacity: .6;
+}
+
+.hero a{
+    width: 50px;
+    color: rgba(255, 255, 255, .2);
+    font-size: 80px;
+}
+
+.hero a i{
+    position: absolute;
+    left: 45%;
+    top: 100%;
+}
+
+.hero a:hover i {
+    color: #fff;
+    border: 2px solid;
+}
+
+/* batas hero */
+
+
+/* mindset-development */
+.mindset-development {
+}
+
+.title-mindset {
+    background-color: #000;
+    height: 180px;
+}
+
+.title-mindset h3 {
+    padding: 65px;
+    color: #fff;
+    font-size: 55px;
+    text-align: center;
+}
+
+.about-development {
+
+}
+
+.about-development img {
+    width: 200px;
+    height: 300px;
+    border: 2px solid salmon;
+}
+
+
+
+/* akhir mindset-development */
+
+/* technology-stack */
+.technology-stack {
+   background-color: grey;
+}
+
+
+/* batas technology-stack */
+
+/* our-team */
+.our-team {
+    background-color: blueviolet;
+}
+
+/* batas our-team */
+
+/* client-project */
+
+.client-project {
+    background-color: green;
+}
+
+/* batas client-project */
+
+/* portfolio-project */
+.portfolio-project {
+    background-color: yellow;
+}
+
+
+/* batas portfolio-project */
+
+/* contact-us */
+.contact-us {
+    background-color: grey;
+}
+/* batas contact-us */
+
+/* footer */
+footer {
+    background-color: yellow;
+}

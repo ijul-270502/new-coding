@@ -1,0 +1,14 @@
+Bahasa Pemrograman harus dikuasai
+-Html 
+-Css
+-JavaScript
+-Php
+-Python
+-java
+
+Framework Yg harus di kuasai
+-bootstrap
+-tailwind-Css
+-node Js
+-vue
+-reactjs

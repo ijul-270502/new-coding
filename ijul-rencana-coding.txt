@@ -5,6 +5,7 @@ Bahasa Pemrograman harus dikuasai
 -Php
 -Python
 -java
+-ajax
 
 Framework Yg harus di kuasai
 -bootstrap

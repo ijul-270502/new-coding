@@ -13,3 +13,4 @@ Framework Yg harus di kuasai
 -node Js
 -vue
 -reactjs
+-angular
